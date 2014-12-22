@@ -2,7 +2,7 @@ language: python
 python:
   - "2.7"
 install: python xes_transformer/setup.py install
-script: python xes_transformer/tests/test_xes_transformer.py
+script: python xes_transformer/transformer/xes_transformer.py
 branches:
   only:
     - master
