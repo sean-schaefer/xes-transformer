@@ -1,7 +1,7 @@
 language: python
 python:
   - "2.7"
-# command to install dependencies
+install: python xes_transformer/setup.py install
 script: python xes_transformer/tests/test_xes_transformer.py
 branches:
   only:
